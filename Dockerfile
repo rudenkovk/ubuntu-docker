@@ -9,6 +9,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -yq update && \
     apt-get -yq upgrade && \
     apt-get -yq --no-install-recommends install \
+        ca-certificates \
         python-software-properties \
         software-properties-common \
         apt-transport-https \
