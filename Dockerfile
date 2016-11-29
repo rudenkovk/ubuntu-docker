@@ -14,6 +14,8 @@ RUN apt-get -yq update && \
         software-properties-common \
         apt-transport-https \
         aptitude \
+        wget \
+        curl \
         unzip && \
     add-apt-repository ppa:rudenkovk/nginx+lua &&\    
     apt-get autoremove -yq && \
