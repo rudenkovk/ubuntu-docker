@@ -17,7 +17,7 @@ RUN apt-get -yq update && \
         wget \
         curl \
         unzip && \
-    add-apt-repository ppa:rudenkovk/nginx+lua &&\    
+    add-apt-repository ppa:rudenkovk/nginx+lua && \    
     apt-get autoremove -yq && \
     apt-get clean && \
     apt-get autoclean -yq && \
